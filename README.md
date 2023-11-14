@@ -1,7 +1,7 @@
-[OCR_MT2005 V-OCR LOCAL](#OCR-MT2005-V-OCR-LOCAL)
-# OCR_MT2005 V-OCR OPENAI (mejor)
+[OCR MT2005 V-OCR-LOCAL](#ocr-mt2005-v-ocr-local)
+[OCR_MT2005 V-OCR-OPENAI (mejor)](#ocr_mt2005-v-ocr-openai-mejor)
 # Manual de Instalación del Programa OCR LOCAL
-## OCR_MT2005 V-OCR LOCAL
+## OCR MT2005 V-OCR-LOCAL
 Este documento proporciona instrucciones detalladas sobre cómo configurar y ejecutar el programa OCR (Reconocimiento Óptico de Caracteres) tanto en sistemas operativos Windows como en Linux. 
 # Nota importante
 Se recomienda el uso de una distro Linux, Windows suele dar problemas con Tesseract. Ademas, se recomienda usar imagenes de pequeño tamaño, el programa es CPU intensivo, y estandarizar lo que se desea extraer de las imagenes es primordial para el uso del script.
@@ -75,4 +75,4 @@ En Linux, asegúrese de que Tesseract OCR esté correctamente instalado y que el
 
 Si hay problemas con la ejecución del script o errores de instalación, asegúrese de que todas las rutas y comandos estén escritos correctamente y que todas las dependencias estén instaladas.
 
-# OCR_MT2005 V-OCR OPENAI (mejor)
+# OCR MT2005 V-OCR-OPENAI (mejor)
