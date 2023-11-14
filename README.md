@@ -101,11 +101,11 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/247_zYcDGz1Q8p.png)  
 **Imagen 4, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/49_BOd5Kk30mg.png)  
-**Imagen 5, imagen inapropiada ❌** 
+**Imagen 5, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/167_PKskS1iV4y.png)  
-**Imagen 6, imagen inapropiada ❌** 
+**Imagen 6, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/215_wJqQb6T8Ho.png)  
-**Imagen 7, imagen inapropiada ❌** 
+**Imagen 7, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_1_1AOmlCqkbJ.png)  
 **Imagen 8, imagen optima ☑️**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_2_1KngZ3w2VK.png)  
