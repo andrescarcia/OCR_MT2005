@@ -45,26 +45,38 @@ pip3 install pillow pandas pytesseract tqdm
 ```
 # Configuración del Programa OCR
 El repositorio puede ser guardado en cualquier lugar en su computadora, si decide usar la version OCR local, lo unico que debe hacer es hacer click dos veces sobre el archivo main.py, si todo esta correctamente instalado, se debe mostrar la GUI en su pantalla.
-# Ejecución del Programa OCR
-## En Windows
-1. Abra la línea de comandos y navegue hasta la carpeta donde guardó el script.
-```shell
-cd C:\Users\TuUsuario\DirectorioDelScript
-```
-2. Ejecute el script con Python:
-```shell
-python script_ocr.py
-```
-# En Linux
-Abra una terminal y navegue hasta la carpeta donde guardó el script.
-```shell
-cd /ruta/al/directorio/del/script
-```
-Ejecute el script con Python:
-```shell
-python3 script_ocr.py
-```
-Siga las instrucciones en la terminal, proporcionando la ruta de la carpeta de imágenes y la ruta de salida del archivo Excel cuando se le solicite.
+
+## Uso de la Versión OCR Local con GUI
+
+Para aquellos usuarios que prefieran utilizar la versión OCR local, esta cuenta con una interfaz gráfica de usuario (GUI) que facilita el proceso. Después de instalar todas las dependencias y herramientas necesarias, como se explicó anteriormente, puedes seguir estos pasos para utilizar la GUI:
+
+### Pasos para Utilizar la GUI del OCR Local
+La versión OCR local incluye una interfaz gráfica de usuario (GUI) diseñada para facilitar el proceso de reconocimiento óptico de caracteres. A diferencia de la versión que utiliza GPT-4 Vision de OpenAI, la versión local realiza un preprocesamiento binario de las imágenes para maximizar la tasa de éxito en el reconocimiento de texto.
+
+1. **Seleccionar la Ruta de las Imágenes**:
+   - Desde la GUI, selecciona la ruta de la carpeta que contiene las imágenes que deseas procesar.  
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/1.png)  
+
+2. **Seleccionar la Ruta para Guardar el Excel**:
+   - Elige la ruta de la carpeta donde deseas guardar el archivo Excel con los resultados del procesamiento OCR.  
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/2.png)  
+   - Tambien debe escribir el nombre que desea darle al excel  
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/3.png)  
+
+4. **Seleccionar la Ruta para Guardar las Imágenes Procesadas**:
+   - Indica la ruta donde se guardarán las imágenes después de ser procesadas por el OCR.
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/4.png)  
+
+### Nota sobre el Preprocesamiento Binario
+
+La versión con GUI, a diferencia de la versión que utiliza GPT-4 Vision de OpenAI, realiza un preprocesamiento binario de las imágenes. Este paso es crucial para maximizar la tasa de éxito en el reconocimiento de texto, especialmente dado que la IA de OCR local puede no ser tan avanzada como la de OpenAI GPT-4 Vision.
+
+### Ejecución de la GUI
+
+Una vez seleccionadas todas las rutas necesarias, puedes iniciar el proceso de OCR haciendo clic en el botón correspondiente en la GUI. El programa procesará las imágenes y generará el archivo Excel en la ubicación especificada.
+
+Recuerda que la calidad de las imágenes y su adecuación a los requisitos previamente mencionados son factores clave para obtener resultados óptimos en el reconocimiento de texto.
+
 
 # Notas Adicionales
 Si encuentra errores relacionados con la ruta de Tesseract OCR en Windows, puede que necesite especificarla manualmente en el script. Encuentre la ruta de instalación de Tesseract (usualmente C:\Program Files\Tesseract-OCR) y añada la siguiente línea al principio del script:
