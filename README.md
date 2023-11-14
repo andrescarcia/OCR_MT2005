@@ -115,6 +115,7 @@ Para optimizar el uso de GPT-4 Vision en el procesamiento de imágenes y entende
 - **Detalle Alto (`high`)**: 
   - Las imágenes se dividen en cuadros de 512px. Cada cuadro tiene un costo de 170 tokens.
   - Se añaden siempre 85 tokens adicionales al total final.
+  (Para nuestro caso de uso con las imagenes de ejemplo en este repo, el costo fue de 0,01$ por 6 imagenes. siendo estas pequeñas)
 
 #### Ejemplos de Costos
 
