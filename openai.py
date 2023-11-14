@@ -3,13 +3,16 @@ import base64
 import requests
 import pandas as pd
 from tqdm import tqdm
-
+from dotenv import load_dotenv
 '''
 lista de comandos para instalar las librerias necesarias
 pip install pandas requests tqdm
 pip install openai
+pip install python-dotenv
 
 '''
+
+load_dotenv()
 # Configura tu clave API de OpenAI
 api_key = "API_KEY"
 

@@ -5,10 +5,19 @@ import pandas as pd
 from tkinter import filedialog, messagebox
 import tkinter as tk
 from tkinter import ttk
+from dotenv import load_dotenv
+
+'''
+lista de comandos para instalar las librerias necesarias
+pip install pandas requests tqdm
+pip install openai
+pip install python-dotenv
+
+'''
 
 # Configura tu clave API de OpenAI
 api_key = "API_KEY"
-
+load_dotenv()
 def leer_imagenes(carpeta):
     archivos = []
     for archivo in os.listdir(carpeta):
