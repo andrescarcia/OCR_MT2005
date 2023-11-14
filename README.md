@@ -91,7 +91,9 @@ Si hay problemas con la ejecución del script o errores de instalación, asegúr
 
 # Manual de Uso del Script de OCR con OpenAI
 
-Este script utiliza la API de OpenAI para procesar imágenes y extraer texto de ellas. Las imágenes se procesan y el texto extraído se guarda en un archivo Excel. Actualmente esta version no cuenta con una GUI, sin embargo solo se necesita un block de notas o Visual Studio Code para editar el archivo openai.py
+Este script utiliza la API de OpenAI para procesar imágenes y extraer texto de ellas. Las imágenes se procesan y el texto extraído se guarda en un archivo Excel. Actualmente esta version no cuenta con una GUI, sin embargo solo se necesita un block de notas o Visual Studio Code para editar el archivo openai.py.  
+Por el uso de una API KEY de OpenAI, se debera crear una cuenta en  [OpenAI API](https://openai.com/blog/openai-api), luego de crear una cuenta puede acceder al apartado "API Keys" y luego dar click en "Create new Secret Key" , elegir el nombre que tendra esta key y copiarla en la seccion de codigo "api_key = "API_KEY_HERE" en el archivo openai.py
+
 ## Especificaciones para las Imágenes
 
 Para asegurar la eficiencia y precisión en el procesamiento de las imágenes por el script, es importante que las imágenes cumplan con ciertas especificaciones:
