@@ -1,6 +1,7 @@
-# OCR_MT2005
+# OCR_MT2005 V-OCR LOCAL
+# OCR_MT2005 V-OCR OPENAI (mejor)
 # Manual de Instalación del Programa OCR
-
+## OCR_MT2005 V-OCR LOCAL
 Este documento proporciona instrucciones detalladas sobre cómo configurar y ejecutar el programa OCR (Reconocimiento Óptico de Caracteres) tanto en sistemas operativos Windows como en Linux. 
 # Nota importante
 Se recomienda el uso de una distro Linux, Windows suele dar problemas con Tesseract. Ademas, se recomienda usar imagenes de pequeño tamaño, el programa es CPU intensivo, y estandarizar lo que se desea extraer de las imagenes es primordial para el uso del script.
@@ -16,7 +17,7 @@ Se recomienda el uso de una distro Linux, Windows suele dar problemas con Tesser
 
 ### Instalación de Tesseract OCR
 
-1. Descargue el instalador de Tesseract OCR desde su [página de GitHub](https://github.com/tesseract-ocr/tesseract/releases).
+1. Descargue el instalador de Tesseract OCR desde su [página de GitHub](https://github.com/tesseract-ocr/tesseract/releases). tambien se puede seguir un [Tutorial de youtube](https://www.youtube.com/watch?v=DG5D8A3zi4o)
 2. Ejecute el instalador y siga las instrucciones. Asegúrese de permitir que Tesseract se agregue a la variable de entorno PATH.
 
 ### Instalación de Dependencias de Python
@@ -73,3 +74,5 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 En Linux, asegúrese de que Tesseract OCR esté correctamente instalado y que el idioma requerido esté disponible.
 
 Si hay problemas con la ejecución del script o errores de instalación, asegúrese de que todas las rutas y comandos estén escritos correctamente y que todas las dependencias estén instaladas.
+
+# OCR_MT2005 V-OCR OPENAI (mejor)
