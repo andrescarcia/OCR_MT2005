@@ -1,5 +1,6 @@
 - **[OCR MT2005 V-OCR-LOCAL](#ocr-mt2005-v-ocr-local)**
 - **[OCR MT2005 V-OCR-OPENAI (mejor)](#ocr-mt2005-v-ocr-openai)**
+- **[Ejemplos de Imágenes](#ejemplos-de-imágenes)**
 # Manual de Instalación del Programa OCR LOCAL
 ## OCR MT2005 V-OCR-LOCAL
 Este documento proporciona instrucciones detalladas sobre cómo configurar y ejecutar el programa OCR (Reconocimiento Óptico de Caracteres) tanto en sistemas operativos Windows como en Linux. 
