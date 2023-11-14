@@ -91,7 +91,8 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 
 - **Fondo y Contraste**: Un fondo uniforme y un buen contraste entre el texto y el fondo ayudarán a mejorar la precisión del reconocimiento de texto.
 
-### Ejemplos de Imágenes
+## Ejemplos de Imágenes
+### no optimas pero funcionales
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/116_Kd0xnGNwU8.png)  
 **Imagen 1, no optima pero funcional ✅**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/212_vR8y7RhV0v.png)  
@@ -99,6 +100,8 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/32_acVkZpMm8v.png)  
 **Imagen 3, no optima pero funcional ✅**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/247_zYcDGz1Q8p.png)  
+### Imagenes inapropiadas
+- *Nota:* a pesar de no ser apropiadas aun muchas pueden seguir siendo interpretadas por GPT-4 Turbo sin embargo no es capaz de discernir el codigo o serial que se desea extraer si la imagen no contiene solamente el serial, como se pueden ver en las imagenes funcionales y optimas.  
 **Imagen 4, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/49_BOd5Kk30mg.png)  
 **Imagen 5, imagen inapropiada ❌**  
@@ -107,6 +110,7 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/215_wJqQb6T8Ho.png)  
 **Imagen 7, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_1_1AOmlCqkbJ.png)  
+### Imagenes optimas
 **Imagen 8, imagen optima ☑️**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_2_1KngZ3w2VK.png)  
 **Imagen 9, imagen optima ☑️**  
