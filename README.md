@@ -93,7 +93,7 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 
 ### Ejemplos de Imágenes
 
-
+![Imagen 1, no optima pero funcional ✅ ](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/116_Kd0xnGNwU8.png){height=100}
 
 Recuerda que la calidad de las imágenes influye directamente en la precisión del texto extraído. Imágenes que no cumplan con estas especificaciones pueden resultar en errores o en una baja calidad en la extracción del texto.
 
