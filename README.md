@@ -1,5 +1,6 @@
 - **[OCR MT2005 V-OCR-LOCAL](#ocr-mt2005-v-ocr-local)**
-- **[OCR MT2005 V-OCR-OPENAI (mejor)](#ocr-mt2005-v-ocr-openai)**
+- **[OCR MT2005 V-OCR-OPENAI (script)](#ocr-mt2005-v-ocr-openai)**
+- **[OCR MT2005 V-OCR-OPENAI (CON GUI)](#ocr-mt2005-v-ocr-openai-gui)**
 - **[Ejemplos de Imágenes](#ejemplos-de-imágenes)**
 # Manual de Instalación del Programa OCR LOCAL
 ## OCR MT2005 V-OCR-LOCAL
@@ -210,6 +211,19 @@ Para la configuracion debe abrir el archivo openai.py en el block de notas o en 
 4. **Revisar Resultados**:
    - Una vez completado el proceso, revisa el archivo Excel generado para ver los textos extraídos.
 
+## OCR MT2005-V-OCR-OpenAI GUI
+Para el uso de la herramienta con GUI se deben seguir los mismos pasos anteriores, y sencillamente ejecutar el archivo llamdo "openaiGUI.py" 
+1. **Seleccionar la Ruta de las Imágenes**:
+   - Desde la GUI, selecciona la ruta de la carpeta que contiene las imágenes que deseas procesar.  
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/1GUI.png)  
+
+2. **Seleccionar la Ruta para Guardar el Excel**:
+   - Elige la ruta de la carpeta donde deseas guardar el archivo Excel con los resultados del procesamiento OCR.  
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/2GUI.png)  
+   - Tambien debe escribir el nombre que desea darle al excel  
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/3GUI.png)
+3. **Empezar el Procesamiento**:     
+   - ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/Imagenes%20Tutorial/4GUI.png)
 ## Notas Adicionales
 
 - El script está configurado para procesar imágenes con extensiones `.jpg` y `.png`.
