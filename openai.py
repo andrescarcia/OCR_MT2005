@@ -11,7 +11,7 @@ pip install openai
 
 '''
 # Configura tu clave API de OpenAI
-api_key = "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"
+api_key = "API_KEY"
 
 def leer_imagenes(carpeta):
     archivos = []
