@@ -78,7 +78,65 @@ Si hay problemas con la ejecución del script o errores de instalación, asegúr
 
 # Manual de Uso del Script de OCR con OpenAI
 
-Este script utiliza la API de OpenAI para procesar imágenes y extraer texto de ellas. Las imágenes se procesan y el texto extraído se guarda en un archivo Excel.
+Este script utiliza la API de OpenAI para procesar imágenes y extraer texto de ellas. Las imágenes se procesan y el texto extraído se guarda en un archivo Excel. Actualmente esta version no cuenta con una GUI, sin embargo solo se necesita un block de notas o Visual Studio Code para editar el archivo openai.py
+## Especificaciones para las Imágenes
+
+Para asegurar la eficiencia y precisión en el procesamiento de las imágenes por el script, es importante que las imágenes cumplan con ciertas especificaciones:
+
+- **Tamaño Reducido**: Las imágenes deben ser de tamaño reducido para facilitar un procesamiento rápido y eficiente. Esto es especialmente importante si se procesa un gran número de imágenes.
+
+- **Orientación Horizontal**: Las imágenes deben estar orientadas horizontalmente. Esto asegura que el texto, especialmente los números de serie, sean fácilmente detectables y legibles por el script.
+
+- **Claridad y Precisión**: Las imágenes deben ser claras, con el texto o números de serie bien enfocados y legibles. Evita imágenes borrosas o con texto que esté parcialmente oculto o cortado.
+
+- **Fondo y Contraste**: Un fondo uniforme y un buen contraste entre el texto y el fondo ayudarán a mejorar la precisión del reconocimiento de texto.
+
+### Ejemplos de Imágenes
+
+
+
+Recuerda que la calidad de las imágenes influye directamente en la precisión del texto extraído. Imágenes que no cumplan con estas especificaciones pueden resultar en errores o en una baja calidad en la extracción del texto.
+
+
+## Uso Eficiente de GPT-4 Vision y Costos Asociados
+
+Para optimizar el uso de GPT-4 Vision en el procesamiento de imágenes y entender cómo se calculan los costos, es importante considerar las siguientes pautas y detalles:
+
+### Especificaciones de las Imágenes para GPT-4 Vision
+
+- **Detalle de la Imagen**: GPT-4 Vision ofrece dos opciones de detalle: `low` y `high`. La opción `low` tiene un costo fijo, mientras que `high` varía según el tamaño y la cantidad de cuadros de 512px que componen la imagen.
+
+- **Tamaño y Escalado**: Para la opción `high`, las imágenes se escalan para ajustarse dentro de un cuadrado de 2048 x 2048, manteniendo su relación de aspecto. Luego, se escalan de tal manera que el lado más corto de la imagen mida 768px.
+
+### Cálculo de Costos
+
+- **Detalle Bajo (`low`)**: Todas las imágenes con `detail: low` tienen un costo fijo de 85 tokens, independientemente de su tamaño.
+
+- **Detalle Alto (`high`)**: 
+  - Las imágenes se dividen en cuadros de 512px. Cada cuadro tiene un costo de 170 tokens.
+  - Se añaden siempre 85 tokens adicionales al total final.
+
+#### Ejemplos de Costos
+
+1. **Imagen de 1024 x 1024 en Modo `high`**: 
+   - Costo: 765 tokens.
+   - Cálculo: 4 cuadros de 512px (170 * 4) + 85 tokens adicionales.
+
+2. **Imagen de 2048 x 4096 en Modo `high`**: 
+   - Costo: 1105 tokens.
+   - Cálculo: 6 cuadros de 512px (170 * 6) + 85 tokens adicionales.
+
+3. **Imagen de 4096 x 8192 en Modo `low`**: 
+   - Costo fijo de 85 tokens.
+
+### Referencias Adicionales
+
+Para más información sobre el uso de GPT-4 Vision y ejemplos prácticos, puedes consultar los siguientes enlaces:
+
+- [Guía de GPT-4 Vision en OpenAI](https://platform.openai.com/docs/guides/vision)
+- [Ejemplos de Uso de GPT-4 Vision para Entendimiento de Video](https://cookbook.openai.com/examples/gpt_with_vision_for_video_understanding)
+
+Es crucial seleccionar el nivel de detalle adecuado y tener en cuenta el tamaño de las imágenes para gestionar de manera eficiente los costos asociados al uso de GPT-4 Vision.
 
 ## Requisitos Previos
 
@@ -90,7 +148,7 @@ pip install openai
 ```
 
 ## Configuración
-
+Para la configuracion debe abrir el archivo openai.py en el block de notas o en cualquier editor de codigo.
 1. **Configura tu clave API de OpenAI**:
    - Reemplaza `API_KEY_HERE` en el script con tu clave API de OpenAI.
 
