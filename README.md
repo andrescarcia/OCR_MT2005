@@ -114,9 +114,10 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 **Imagen 2, no optima pero funcional ✅**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/32_acVkZpMm8v.png)  
 **Imagen 3, no optima pero funcional ✅**  
-![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/247_zYcDGz1Q8p.png)  
+
 ### Imagenes inapropiadas
-- *Nota:* A pesar de no ser apropiadas, aún muchas pueden seguir siendo interpretadas por GPT-4 Turbo, sin embargo no es capaz de discernir el codigo o serial que se desea extraer si la imagen no contiene solamente el serial (como se ve en la imagen 7). En las imagenes funcionales y optimas se demuestra como deben verse las imagenes solo con el serial o codigo.  
+- *Nota:* A pesar de no ser apropiadas, aún muchas pueden seguir siendo interpretadas por GPT-4 Turbo, sin embargo no es capaz de discernir el codigo o serial que se desea extraer si la imagen no contiene solamente el serial (como se ve en la imagen 7). En las imagenes funcionales y optimas se demuestra como deben verse las imagenes solo con el serial o codigo.
+- ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/247_zYcDGz1Q8p.png)   
 **Imagen 4, imagen inapropiada ❌**  
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/49_BOd5Kk30mg.png)  
 **Imagen 5, imagen inapropiada ❌**  
