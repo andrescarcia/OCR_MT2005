@@ -11,7 +11,7 @@ pip install openai
 
 '''
 # Configura tu clave API de OpenAI
-api_key = "API_KEY_HERE"
+api_key = "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"
 
 def leer_imagenes(carpeta):
     archivos = []
@@ -74,8 +74,8 @@ def guardar_en_excel(dataset, nombre_archivo):
     df.to_excel(nombre_archivo, index=False)
 
 # Ruta de la carpeta donde están las imágenes y donde se guardará el Excel
-carpeta_imagenes = r'C:\Users\AndreScarcia\OneDrive - MTIC\Escritorio\Proyecto OCR\imagenes ejemplo'
-ruta_excel = r'C:\Users\AndreScarcia\OneDrive - MTIC\Escritorio\Proyecto OCR\imagenes ejemplo\dataset.xlsx'
+carpeta_imagenes = r'C:\Users\AndreScarcia\OneDrive - MTIC\Escritorio\temporales'
+ruta_excel = r'C:\Users\AndreScarcia\OneDrive - MTIC\Escritorio\temporales\dataset.xlsx'
 
 # Procesar
 archivos = leer_imagenes(carpeta_imagenes)
