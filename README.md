@@ -43,8 +43,7 @@ En la terminal, ejecute:
 pip3 install pillow pandas pytesseract tqdm
 ```
 # Configuración del Programa OCR
-Guarde el script de Python proporcionado en un archivo con la extensión .py, por ejemplo, script_ocr.py.
-
+El repositorio puede ser guardado en cualquier lugar en su computadora, si decide usar la version OCR local, lo unico que debe hacer es hacer click dos veces sobre el archivo main.py, si todo esta correctamente instalado, se debe mostrar la GUI en su pantalla.
 # Ejecución del Programa OCR
 ## En Windows
 1. Abra la línea de comandos y navegue hasta la carpeta donde guardó el script.
