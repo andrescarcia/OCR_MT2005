@@ -92,20 +92,19 @@ Para asegurar la eficiencia y precisión en el procesamiento de las imágenes po
 - **Fondo y Contraste**: Un fondo uniforme y un buen contraste entre el texto y el fondo ayudarán a mejorar la precisión del reconocimiento de texto.
 
 ### Ejemplos de Imágenes
-
-- ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/116_Kd0xnGNwU8.png)
-- **Imagen 1, no optima pero funcional ✅**
-- ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/212_vR8y7RhV0v.png)
-- **Imagen 2, no optima pero funcional ✅**
-- ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/32_acVkZpMm8v.png)
-- **Imagen 3, no optima pero funcional ✅**
-- ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/247_zYcDGz1Q8p.png)
-- **Imagen 4, imagen inapropiada ❌**
-- ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/49_BOd5Kk30mg.png)
-- **Imagen 5, imagen inapropiada ❌**  
+![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/116_Kd0xnGNwU8.png)  
+**Imagen 1, no optima pero funcional ✅**  
+![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/212_vR8y7RhV0v.png)  
+**Imagen 2, no optima pero funcional ✅**  
+![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/32_acVkZpMm8v.png)  
+**Imagen 3, no optima pero funcional ✅**  
+![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/247_zYcDGz1Q8p.png)  
+**Imagen 4, imagen inapropiada ❌**  
+![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/49_BOd5Kk30mg.png)  
+**Imagen 5, imagen inapropiada ❌** 
 ![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_1_1AOmlCqkbJ.png)  
 **Imagen 6, imagen optima ☑️**  
-![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_2_1KngZ3w2VK.png)
+![](https://github.com/andrescarcia/OCR_MT2005/blob/main/Imagenes%20Ejemplo/preprocessed_2_1KngZ3w2VK.png)  
 **Imagen 7, imagen optima ☑️**  
 Recuerda que la calidad de las imágenes influye directamente en la precisión del texto extraído. Imágenes que no cumplan con estas especificaciones pueden resultar en errores o en una baja calidad en la extracción del texto.
 
