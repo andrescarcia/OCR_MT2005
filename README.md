@@ -75,3 +75,49 @@ En Linux, asegúrese de que Tesseract OCR esté correctamente instalado y que el
 Si hay problemas con la ejecución del script o errores de instalación, asegúrese de que todas las rutas y comandos estén escritos correctamente y que todas las dependencias estén instaladas.
 
 # OCR MT2005 V-OCR-OPENAI
+
+# Manual de Uso del Script de OCR con OpenAI
+
+Este script utiliza la API de OpenAI para procesar imágenes y extraer texto de ellas. Las imágenes se procesan y el texto extraído se guarda en un archivo Excel.
+
+## Requisitos Previos
+
+Antes de ejecutar el script, asegúrate de tener instalado Python y las siguientes librerías:
+
+```shell
+pip install pandas requests tqdm
+pip install openai
+```
+
+## Configuración
+
+1. **Configura tu clave API de OpenAI**:
+   - Reemplaza `API_KEY_HERE` en el script con tu clave API de OpenAI.
+
+2. **Ruta de las Imágenes y del Archivo Excel**:
+   - Modifica las variables `carpeta_imagenes` y `ruta_excel` en el script para indicar la ruta de tus imágenes y dónde deseas guardar el archivo Excel.
+
+## Ejecución del Script
+
+1. **Abrir Terminal o CMD**:
+   - Navega hasta el directorio donde se encuentra el script.
+
+2. **Ejecutar el Script**:
+   - Ejecuta el script con el siguiente comando:
+     ```shell
+     python nombre_del_script.py
+     ```
+   - Asegúrate de reemplazar `nombre_del_script.py` con el nombre real de tu archivo.
+
+3. **Procesamiento**:
+   - El script procesará las imágenes de la carpeta especificada y guardará los resultados en el archivo Excel indicado.
+
+4. **Revisar Resultados**:
+   - Una vez completado el proceso, revisa el archivo Excel generado para ver los textos extraídos.
+
+## Notas Adicionales
+
+- El script está configurado para procesar imágenes con extensiones `.jpg` y `.png`.
+- Asegúrate de que la ruta de las imágenes y del archivo Excel sean accesibles y correctas.
+- Si encuentras algún error, verifica que todas las dependencias estén instaladas y que tu clave API de OpenAI sea válida.
+
